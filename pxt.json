@@ -1,0 +1,27 @@
+{
+    "name": "Calliope",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "SCD30": "github:ud-edu/pxt-SCD30#3d5c1e50ce6ed4b38b04ffa1336bedf127ae58a0",
+        "Grove": "github:calliope-edu/pxt-grove#v0.2.7",
+        "neopixel": "github:Microsoft/pxt-neopixel#v0.7.5",
+        "pxt-esp-thingspeak": "github:MKleinSB/pxt-esp-thingspeak#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
